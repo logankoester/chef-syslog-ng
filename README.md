@@ -1,5 +1,5 @@
 # syslog-ng cookbook
-> A [Chef](http://getchef.com/) recipe to install and configure [syslog-ng](https://wiki.archlinux.org/index.php/Syslog-ng).
+> A [Chef](http://getchef.com/) cookbook to install and configure [syslog-ng](https://wiki.archlinux.org/index.php/Syslog-ng).
 
 [![Build Status](http://ci.ldk.io/logankoester/chef-syslog-ng/badge)](http://ci.ldk.io/logankoester/chef-syslog-ng/)
 [![Gittip](http://img.shields.io/gittip/logankoester.png)](https://www.gittip.com/logankoester/)
