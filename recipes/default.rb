@@ -9,5 +9,5 @@ template '/etc/syslog-ng/syslog-ng.conf' do
   mode '0644'
   owner 'root'
   source 'syslog-ng.conf.erb'
-  notifies :restart, 'service[syslog-ng]'
+  notifies :restart, 'service[syslog-ng@default]'
 end
