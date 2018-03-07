@@ -1,6 +1,6 @@
 package('syslog-ng') { action :install }
 
-service 'syslog-ng' do
+service 'syslog-ng@default' do
   supports status: true, start: true, stop: true, restart: true, reload: true
   action [:enable, :start]
 end
